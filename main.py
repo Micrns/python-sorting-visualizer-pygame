@@ -56,7 +56,7 @@ def dra_info(inf_draw):
     controls = inf_draw.font.render("R : Reset | Space : Sorting | A : Ascending | D : Descending", 1, inf_draw.black) 
     inf_draw.window.blit(controls, ( inf_draw.width/2 - controls.get_width()/2,5))
     
-    sorting = inf_draw.font.render("I : Insertion Sort | B : Bubble Sort", 1, inf_draw.black)
+    sorting = inf_draw.font.render("I : Heap Sort | B : Bubble Sort", 1, inf_draw.black)
     inf_draw.window.blit(sorting, (inf_draw.width/2 - sorting.get_width()/ 2, 35))
     draw_list(inf_draw)
     #this opens the window
